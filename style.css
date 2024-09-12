@@ -15,12 +15,33 @@ section {
     border-radius: 6px;
     padding: 12px;
     margin: 24px 0;
+    overflow: hidden;
+}
+hr {
+    margin: 12px 0;
+}
+.title {
+    color: green;
+}
+.title span {
+    float: right;
+}
+/* Practice Set 1 */
+#box {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+.heading {
+    color: red;
+}
+#button {
+    color: green;
+    padding: 12px;
+    font-size: 18px;
 }
 
 /* Footer */
-footer section {
-    overflow: hidden;
-}
 footer div {
     float: right;
 }
