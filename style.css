@@ -112,7 +112,31 @@ hr {
     border: none;
 }
 /* Practice Set 4 */
-
+.container {
+    height: 200px;
+}
+.container div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 12px;
+}
+.box1 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.box2 {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.box3 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.ps4 footer {
+    background-color: #0f1111;
+    color: white;
+    padding: 12px 0;
+}
+/* Practice Set 5 */
 
 /* Footer */
 footer div {
