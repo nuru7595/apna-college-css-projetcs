@@ -137,6 +137,29 @@ hr {
     padding: 12px 0;
 }
 /* Practice Set 5 */
+.overflow {
+    height: 300px;
+    overflow: auto;
+    position: relative;
+}
+.overflow p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding: 24px 0;
+}
+.overflow div {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    color: white;
+}
+/* Practice Set 6 */
 
 /* Footer */
 footer div {
