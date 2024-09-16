@@ -200,6 +200,31 @@ hr {
     padding: 12px 0;
 }
 /* Practice Set 7 */
+.media {
+    display: flex;
+    justify-content: center;
+}
+.media div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+@media (max-width : 299px) {
+    .media div {
+        background-color: green;
+    }
+}
+@media (min-width : 300px) and (max-width : 399px) {
+    .media div {
+        background-color: pink;
+    }
+}
+@media (min-width : 400px) and (max-width : 599px) {
+    .media div {
+        background-color: red;
+    }
+}
+/* PS8 */
 
 /* Footer */
 footer div {
