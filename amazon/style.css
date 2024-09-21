@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  */
+.nav_box {
+    height: 50px;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin: 0 6px;
+}
+.nav_small {
+    color: #ccc;
+    font-size: 0.8rem;
+    display: block;
+}
+.nav_big {
+    font-weight: bold;
+    display: block;
+}
+/* COMMON CLASS */
+.nav_1 {
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 6px;
+}
+.nav_box:hover {
+    border-color: white;
+}
+/*  */
+.nav_logo img {
+    height: 100%;
+}
+/*  */
+.nav_deliver_1 {
+    margin-left: 18px;
+}
+/*  */
+.nav_search {
+    height: 44px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: flex;
+    flex-grow: 1;
+}
+.nav_search_left {
+    background-color: #ccc;
+    color: #0f1111;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    opacity: .9;
+}
+.nav_search_left span {
+    margin-right: 8px;
+}
+.nav_search_middle {
+    flex-grow: 1;
+}
+.nav_search_middle input {
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0 12px;
+    width: 100%;
+}
+.nav_search_right {
+    height: 100%;
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    opacity: .9;
+}
+.nav_search_right:hover,
+.nav_search_left:hover {
+    opacity: 1;
+}
+.nav_search_right i {
+    font-size: 1.2rem;
+    padding: 0 16px;
+}
+/*  */
+.nav_lang, .nav_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+}
+.nav_lang span {
+    margin-right: 6px;
+}
+/*  */
+.nav_cart i {
+    font-size: 2rem;
+    margin-right: 2px;
+}
+/* Navbar 2 */
+.nav_2 {
+    background-color: #232f3e;
+    color: white;
+    height: 50px;
+    padding: 0 12px;
+}
+.nav_2 ul {
+    display: flex;
+    list-style: none;
+}
+.nav_2 ul li {
+    cursor: pointer;
+    padding: 0 12px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.nav_2 ul li:hover {
+    border-color: white;
+}
+.nav_2 ul li:first-child i {
+    margin-right: 6px;
+}
+.nav_2 ul li:last-child {
+    margin-left: auto;
+}
+/* Main */

@@ -1,14 +1,18 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 2px;
 }
 body {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     padding: 24px 5%;
     background-color: #fffdf2;
-    letter-spacing: 2px;
-    font-size: 18px;
+}
+header h1 {
+    text-align: center;
+    padding: 24px 0;
+    color: darkgrey
 }
 section {
     border: 2px solid black;
@@ -143,6 +147,7 @@ section {
     letter-spacing: 2px;
     line-height: 50px;
     padding: 24px 0;
+    text-align: justify;
 }
 .overflow div {
     height: 150px;
@@ -176,7 +181,7 @@ section {
 }
 .ps6Box {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: slateblue;
     display: flex;
     justify-content: center;
@@ -258,14 +263,18 @@ section {
     color: white;
 }
 /* Footer */
+footer .title {
+    justify-content: center;
+}
 span {
     color: green;
 }
 .footer a {
-    color: black;
+    color: green;
 }
 .footer p {
     padding: 6px 0;
+    text-align: center;
 }
 footer > p {
     text-align: center;
