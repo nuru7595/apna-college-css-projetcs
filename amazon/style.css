@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #e3e6e6;
+}
 /*  */
 .nav_box {
     height: 50px;
@@ -62,7 +65,7 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     cursor: pointer;
-    opacity: .9;
+    opacity: 0.9;
 }
 .nav_search_left span {
     margin-right: 8px;
@@ -87,7 +90,7 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     cursor: pointer;
-    opacity: .9;
+    opacity: 0.9;
 }
 .nav_search_right:hover,
 .nav_search_left:hover {
@@ -98,7 +101,8 @@
     padding: 0 16px;
 }
 /*  */
-.nav_lang, .nav_cart {
+.nav_lang,
+.nav_cart {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,3 +146,54 @@
     margin-left: auto;
 }
 /* Main */
+main {
+    width: 80%;
+    margin: auto;
+}
+.background {
+    background-image: url("images/gaming.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 12px;
+    position: relative;
+    top: -200px;
+}
+.box {
+    width: 23%;
+    background-color: white;
+    padding: 24px;
+    margin: 12px;
+}
+.img_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.img {
+    width: 48%;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.img_single {
+    width: 100%;
+}
+.img img {
+    width: 100%;
+}
+.img span {
+    font-size: 0.7rem;
+}
+.box a {
+    text-decoration: none;
+    color: #007185;
+}
+.box a:hover {
+    color: #c7511f;
+}
