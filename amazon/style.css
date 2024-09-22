@@ -197,3 +197,71 @@ section {
 .box a:hover {
     color: #c7511f;
 }
+/* Footer */
+main {
+    position: relative;
+}
+.footer_1 {
+    width: 100%;
+}
+.footer_1 a{
+    background-color: #37475a;
+    color: white;
+    padding: 16px 0;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.footer_1 a:hover {
+    background-color: #485769;
+}
+/*  */
+.footer_2 {
+    background-color: #232F3E;
+}
+.footer_2 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+.foot_column span {
+    color: white;
+    font-weight: bold;
+}
+.foot_column ul {
+    margin-top: 16px;
+    list-style: none;
+}
+.foot_column li {
+    padding: 4px 0;
+}
+.foot_column a {
+    color: #ddd;
+    font-size: .9rem;
+    text-decoration: none;
+}
+.foot_column a:hover {
+    text-decoration: underline;
+}
+/*  */
+.footer_3 {
+    padding: 36px 0;
+    text-align: center;
+    background-color: #131A22;
+}
+.footer_3 a {
+    color: #ddd;
+    font-size: .8rem;
+    margin: 0 6px;
+}
+.footer_3 a:hover {
+    text-decoration: underline;
+}
+.footer_3 p {
+    color: #ddd;
+    font-size: .8rem;
+    margin-top: 6px;
+}
