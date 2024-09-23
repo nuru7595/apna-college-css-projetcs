@@ -12,7 +12,7 @@ body {
 header h1 {
     text-align: center;
     padding: 24px 0;
-    color: darkgrey
+    color: green;
 }
 section {
     border: 2px solid black;

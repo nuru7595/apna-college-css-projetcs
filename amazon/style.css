@@ -80,6 +80,7 @@ body {
     font-size: 1.1rem;
     padding: 0 12px;
     width: 100%;
+    display: flex;
 }
 .nav_search_right {
     height: 100%;
@@ -147,14 +148,27 @@ body {
 }
 /* Main */
 main {
-    width: 80%;
+    max-width: 1500px;
     margin: auto;
+    position: relative;
+}
+.nuru {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    background-color: purple;
+    padding: 2vw 0;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 .background {
     background-image: url("images/gaming.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 25vw;
 }
 section {
     display: flex;
@@ -162,7 +176,7 @@ section {
     justify-content: space-evenly;
     padding: 12px;
     position: relative;
-    top: -200px;
+    top: -10vw;
 }
 .box {
     width: 23%;
@@ -204,7 +218,7 @@ main {
 .footer_1 {
     width: 100%;
 }
-.footer_1 a{
+.footer_1 a {
     background-color: #37475a;
     color: white;
     padding: 16px 0;
@@ -217,7 +231,7 @@ main {
 }
 /*  */
 .footer_2 {
-    background-color: #232F3E;
+    background-color: #232f3e;
 }
 .footer_2 > div {
     display: flex;
@@ -240,7 +254,7 @@ main {
 }
 .foot_column a {
     color: #ddd;
-    font-size: .9rem;
+    font-size: 0.9rem;
     text-decoration: none;
 }
 .foot_column a:hover {
@@ -250,11 +264,11 @@ main {
 .footer_3 {
     padding: 36px 0;
     text-align: center;
-    background-color: #131A22;
+    background-color: #131a22;
 }
 .footer_3 a {
     color: #ddd;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: 0 6px;
 }
 .footer_3 a:hover {
@@ -262,6 +276,138 @@ main {
 }
 .footer_3 p {
     color: #ddd;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-top: 6px;
+}
+/* Responsive */
+@media (max-width: 1600px) {
+    .footer_2 > div {
+        min-width: 960px;
+    }
+}
+@media (max-width: 1500px) {
+    .background {
+        width: 100%;
+    }
+    .box {
+        padding: 1.5vw;
+        margin: 1vw 0;
+    }
+    .box h3 {
+        font-size: 1.3vw;
+    }
+    .box span {
+        font-size: 0.75vw;
+    }
+    .box a {
+        font-size: 1.1vw;
+    }
+    .img_box {
+        padding: 0px;
+    }
+}
+@media (max-width: 1080px) {
+    .nav_1 {
+        height: 5vw;
+    }
+    .nav_box {
+        height: 4vw;
+        padding: 0.5vw;
+        margin: 0 0.2vw;
+    }
+    .nav_small {
+        font-size: 1vw;
+    }
+    .nav_big {
+        font-size: 1.4vw;
+    }
+    .nav_deliver_1 {
+        margin-left: 1.5vw;
+    }
+    .nav_search {
+        height: 3.75vw;
+    }
+    .nav_search_left {
+        padding: 1vw;
+        font-size: 1.5vw;
+    }
+    .nav_search_left span {
+        margin-right: 0.5vw;
+    }
+    .nav_search_middle input {
+        font-size: 1.5vw;
+        padding: 0 1vw;
+    }
+    .nav_search_right i {
+        font-size: 1.5vw;
+        padding: 0 1vw;
+    }
+    .nav_lang,
+    .nav_cart {
+        padding: 0 1vw;
+        font-size: 1.5vw;
+    }
+    .nav_lang span {
+        margin-right: 0.5vw;
+    }
+    .nav_cart i {
+        font-size: 2.5vw;
+    }
+    /*  */
+    .nav_2 {
+        height: 4vw;
+        padding: 0 1vw;
+    }
+    .nav_2 ul li {
+        height: 4vw;
+        padding: 0 1vw;
+        font-size: 1.5vw;
+    }
+    /*  */
+    .box {
+        width: 32%;
+    }
+    /*  */
+    .footer_1 a {
+        font-size: 1.5vw;
+        padding: 1.5vw 0;
+    }
+    .footer_2 > div {
+        min-width: 100%;
+        justify-content: center;
+        padding: 4vw 0;
+    }
+    .foot_column {
+        padding: 0 1.5vw;
+    }
+    .foot_column ul {
+        margin-top: 1vw;
+    }
+    .foot_column li {
+        padding: 0.5vw 0;
+    }
+    .foot_column span {
+        font-size: 1.5vw;
+    }
+    .foot_column a {
+        font-size: 1.3vw;
+    }
+    .footer_3 {
+        padding: 3vw;
+    }
+    .footer_3 a,
+    .footer_3 p {
+        font-size: 1.3vw;
+    }
+}
+@media (max-width: 600px) {
+    .nav_logo {
+        height: 5vw;
+    }
+    .img {
+        margin: 1vw 0;
+    }
+    .foot_column li {
+        padding: 0;
+    }
 }
